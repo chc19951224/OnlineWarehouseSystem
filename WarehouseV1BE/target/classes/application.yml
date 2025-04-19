@@ -1,0 +1,19 @@
+spring:
+  # Application Name
+  application:
+    name: WarehouseV1BE
+
+  # Database Connection setting (Account, Host, MySQL Driver)
+  datasource:
+    username: lcc
+    password: 841224
+    url: jdbc:mysql://192.168.43.32:3306/WarehouseV1DB_Backup?userSSL=false
+    # Prado 192.168.31.158:3306
+    # Lcc 192.168.43.32:3306
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  # HotSwapping activate restart
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java

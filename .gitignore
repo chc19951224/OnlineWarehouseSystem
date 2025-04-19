@@ -1,0 +1,6 @@
+#忽略前端项目node模组
+node_modules/
+
+#忽略后端项目配置文件和maven配置
+.idea/
+.mvn/
